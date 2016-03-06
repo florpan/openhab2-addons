@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="thermiaonline"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+        xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    <bridge-type id="bridge">
+        <label>Thermia Online</label>
+        <description>Thermia Online bridge.</description>
+        <config-description>
+            <parameter name="username" type="text" required="true">
+                <label>Username</label>
+                <description>The username to thermia online.</description>
+            </parameter>
+            <parameter name="password" type="text" required="true">
+                <label>Password</label>
+                <description>The password to thermia online.</description>
+            </parameter>
+            <parameter name="refresh" type="integer" required="true" min="0" max="3600">
+                <label>Reresh interval</label>
+                <description>The refresh interval in seconds before automatically update values from thermia online. 0 = No automatic refresh</description>
+                <default>0</default>
+            </parameter>
+        </config-description>
+    </bridge-type>
+    
+    <thing-type id="pump">
+        <supported-bridge-type-refs>
+            <bridge-type-ref id="bridge" />
+        </supported-bridge-type-refs>
+        <label>Thermia Online heatpump</label>
+        <description>Represent one heatpump installation</description>
+        <channel-groups>
+            <channel-group id="installation" typeId="installation" />
+        </channel-groups>
+    </thing-type>
+
+	<channel-group-type id="installation">
+	    <label>Installation</label>
+	    <description>Installation channels</description>
+        <channels>
+            <channel id="name" typeId="installation-name"/>
+            <channel id="retailer" typeId="installation-retailer"/>
+            <channel id="unreadErrors" typeId="installation-unreaderr"/>
+            <channel id="unreadInfo" typeId="installation-unreadinfo"/>
+            <channel id="unreadWarnings" typeId="installation-unreadwarn"/>
+            <channel id="activeAlarms" typeId="installation-activealarm"/>
+            <channel id="heatingEffect" typeId="installation-heatingeffect"/>
+            <channel id="reducedHeatingEffect" typeId="installation-reducedheatingeffect"/>
+            <channel id="isonline" typeId="installation-isonline"/>
+            <channel id="isOutdoorTempSensorFunctioning" typeId="installation-isoutdoortempsensorfunctioning"/>
+            <channel id="isHotwaterActive" typeId="installation-ishotwateractive"/>
+        </channels>
+	</channel-group-type> 
+
+    <!-- Sample Channel Type -->
+    <channel-type id="installation-name">
+        <item-type>String</item-type>
+        <label>Installation name</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-retailer">
+        <item-type>String</item-type>
+        <label>Retailer name</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-unreaderr">
+        <item-type>Number</item-type>
+        <label>Unread errors</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-unreadinfo">
+        <item-type>Number</item-type>
+        <label>Unread info</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-unreadwarn">
+        <item-type>Number</item-type>
+        <label>Unread warnings</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-activealarm">
+        <item-type>Number</item-type>
+        <label>Active alarms</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-heatingeffect">
+        <item-type>Number</item-type>
+        <label>Heating effect</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-reducedheatingeffect">
+        <item-type>Number</item-type>
+        <label>Reduced heating effect</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-isonline">
+        <item-type>Switch</item-type>
+        <label>Reduced heating effect</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-isoutdoortempsensorfunctioning">
+        <item-type>Switch</item-type>
+        <label>Reduced heating effect</label>
+        <state readOnly="true" />
+    </channel-type>
+    <channel-type id="installation-ishotwateractive">
+        <item-type>Switch</item-type>
+        <label>Is hot water active</label>
+        <state readOnly="true" />
+    </channel-type>
+                                        
+</thing:thing-descriptions>

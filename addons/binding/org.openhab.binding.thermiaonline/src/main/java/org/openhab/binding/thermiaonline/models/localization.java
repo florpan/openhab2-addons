@@ -1,0 +1,199 @@
+package org.openhab.binding.thermiaonline.models;
+
+public class localization {
+    /// api/currentuser/localization
+    // {"culture":"se-SE","timeZone":"W. Europe Standard Time","resources":{"ALARM_BRINE_IN_SENSOR_MA_SA":"BRINE IN
+    /// GIVARE","ALARM_BRINE_IN_SENSOR_SL":"BRINE IN GIVARE SLAV","ALARM_BRINE_OUT_SENSOR_MA_SA":"BRINE UT
+    /// GIVARE","ALARM_BRINE_OUT_SENSOR_SL":"BRINE UT GIVARE SLAV","ALARM_BRINE_PUMP_MA_SA":"CIRKPUMP
+    /// BRINE","ALARM_BRINE_PUMP_SL":"CIRKPUMP BRINE
+    /// SLAV","ALARM_BUFFER_TANK_SENSOR":"BUFFERTTANKSGIVARE","ALARM_CIRC_PUMP_MA_SA":"CIRKPUMP
+    /// VÄRME","ALARM_CIRC_PUMP_SL":"CIRKPUMP VÄRME SLAV","ALARM_COM_ERROR_EXP_CARD":"KOMM.FEL
+    /// EXPS.KORT","ALARM_COM_ERROR_EXP_CARD_SL":"KOMM.FEL EXPS.KORT","ALARM_COM_ERROR_EXV_CARD_MA_SA":"KOMM.FEL
+    /// EXV-KORT","ALARM_COM_ERROR_EXV_CARD_SL":"KOMM.FEL EXV-KORT SL","ALARM_COM_ERROR_HP_CARD_MA_SA":"KOMM.FEL
+    /// VP-KORT","ALARM_COM_ERROR_HP_CARD_SL":"KOMM.FEL VP-KORT SL","ALARM_COM_ERROR_HUB_CARD_MA_SA":"KOMM.FEL
+    /// HUB-KORT","ALARM_COM_ERROR_HUB_CARD_SL":"KOMM.FEL HUB-KORT SL","ALARM_COM_ERROR_ONLINE_LINK":"KOMM.FEL
+    /// ONLINE/LINK","ALARM_COOLING_SENSOR":"KYLGIVARE","ALARM_CP_RESOLVED_MA_SA":"CIRKPUMP
+    /// ÅTGÄRDAD","ALARM_CP_RESOLVED_SL":"CIRKPUMP ÅTGÄRDAD
+    /// SL","ALARM_DEFROST_SENSOR_MA_SA":"AVFROSTN.GIVARE","ALARM_DEFROST_SENSOR_SL":"AVFROSTN.GIVARE
+    /// SLAV","ALARM_DISCH_PIPE_SENSOR_MA_SA":"TRYCKRÖRSGIVARE","ALARM_DISCH_PIPE_SENSOR_SL":"TRYCKRÖRSGIVARE
+    /// SLAV","ALARM_DISTR_CIR1_SENSOR":"SHUNTGRUPP 1 GIVARE","ALARM_DISTR_CIR2_SENSOR":"SHUNTGRUPP 2
+    /// GIVARE","ALARM_DP_AUX_HEATER_ERROR":"Utlöst öh.skydd
+    /// El","ALARM_DP_BRINE_OUT":"LarmBrineUT","ALARM_DP_BRINE_PUMP":"LarmMS_Br","ALARM_DP_CIRC_PUMP":"LarmMS_Cp","ALARM_DP_COM_SYSTEM":"Kommunikationsfel
+    /// mellan
+    /// kort","ALARM_DP_ERR_PHASE_SEQ":"Fasföljd","ALARM_DP_HIGH_PRESSURE_ERROR":"LarmHP","ALARM_DP_HOT_WATER_SENSOR":"Varmvattengivare","ALARM_DP_LOW_BRINE_FLOW":"LarmFlode","ALARM_DP_LOW_PRESSURE_ERROR":"LarmLP","ALARM_DP_MOTOR_P_ERROR":"LarmMS","ALARM_DP_MOTOR_P_FAN_ERROR":"LarmMS_FAN","ALARM_DP_OUTDOOR_SENSOR":"UTEgivare","ALARM_DP_RETURN_LINE_SENSOR":"Returgivare","ALARM_DP_ROOM_SENSOR":"Rumsgivare","ALARM_DP_SUPPLY_LINE_SENSOR":"Framledningsgivare","ALARM_ELEC_HEATER_MA_SA":"ELTILLSATSFEL","ALARM_ELEC_HEATER_SL":"ELTILLSATSFEL
+    /// SLAV","ALARM_FAILED_TO_ACTIVATE_REDUCED_TEMPERATURE_MODE":"Har inte kunnat gå in i läget för reducerad
+    /// temperatur","ALARM_FAILED_TO_DEACTIVATE_REDUCED_TEMPERATURE_MODE":"Har inte kunnat gå ur läget för reducerad
+    /// temperatur","ALARM_FLOW_SWITCH_MA_SA":"LÅGT RADIATORFLÖDE","ALARM_FLOW_SWITCH_SL":"LÅGT RADIAT.FLÖDE
+    /// SL","ALARM_HEAT_PRESSURE_MA_SA":"VÄRMEFEL / TRYCKFEL","ALARM_HEAT_PRESSURE_SL":"VÄRMEFEL/TRYCKFEL
+    /// SL","ALARM_HGW_SENSOR_MA_SA":"HGW-GIVARE","ALARM_HGW_SENSOR_SL":"HGW-GIVARE
+    /// SLAV","ALARM_HIGH_PRESSURE_MA_SA":"HÖGTRYCK","ALARM_HIGH_PRESSURE_SL":"HÖGTRYCK
+    /// SLAV","ALARM_HIGH_RETURN_TEMP_MA_SA":"HÖG RETURLED.TEMP","ALARM_HIGH_RETURN_TEMP_SL":"HÖG RETURLED.TEMP
+    /// SL","ALARM_HOT_WATER_SENSOR":"VARMVATTENGIVARE","ALARM_HOT_WATER_TOP_SENSOR":"VV-TOPPGIVARE","ALARM_LOW_EVAP_TEMP1_MA_SA":"LÅG
+    /// FÖRÅNG.TEMP 1","ALARM_LOW_EVAP_TEMP1_SL":"LÅG FÖRÅNG.TEMP 1 SL","ALARM_LOW_EVAP_TEMP2_MA_SA":"LÅG FÖRÅNG.TEMP
+    /// 2","ALARM_LOW_EVAP_TEMP2_SL":"LÅG FÖRÅNG.TEMP 2
+    /// SL","ALARM_LOW_PRESSURE_MA_SA":"LÅGTRYCK","ALARM_LOW_PRESSURE_SL":"LÅGTRYCK
+    /// SLAV","ALARM_LOW_RET_LINE_TEMP1_MA_SA":"LÅG RETUR TEMP 1","ALARM_LOW_RET_LINE_TEMP1_SL":"LÅG RETUR TEMP 1
+    /// SL","ALARM_LOW_RET_LINE_TEMP2_MA_SA":"LÅG RETUR TEMP 2","ALARM_LOW_RET_LINE_TEMP2_SL":"LÅG RETUR TEMP 2
+    /// SL","ALARM_MAX_TEMP_ELEC_MA_SA":"MAX TEMP ELEKTRONIK","ALARM_MAX_TEMP_ELEC_SL":"MAX TEMP ELEKTR.
+    /// SL","ALARM_MOTOR_PROT_COMP_MA_SA":"KOMP.MOTORSKYDD","ALARM_MOTOR_PROT_COMP_SL":"KOMP.MOTORSKYDD
+    /// SL","ALARM_MOTOR_PROT_FAN_MA_SA":"FLÄKTMOTORSKYDD","ALARM_MOTOR_PROT_FAN_SL":"FLÄKTMOTORSKYDD
+    /// SL","ALARM_NO_CONNECTION":"Anslutningen till DCM har ej kunnat
+    /// återställas","ALARM_OUTDOOR_SENSOR":"UTEGIVARE","ALARM_POOL_SENSOR":"POOLGIVARE","ALARM_PRESS_TRANSDUCER_MA_SA":"LÅGTRYCKSTRANSMITTER","ALARM_PRESS_TRANSDUCER_SL":"LÅGTRYCKSTRANSM.SL","ALARM_REF1_SENSOR_MA_SA":"KÖLDM.1
+    /// GIVARE","ALARM_REF1_SENSOR_SL":"KÖLDM.1 GIVARE SLAV","ALARM_REF2_SENSOR_MA_SA":"KÖLDM.2
+    /// GIVARE","ALARM_REF2_SENSOR_SL":"KÖLDM.2 GIVARE
+    /// SLAV","ALARM_RETURN_LINE_SENSOR_MA_SA":"RETURLED.GIVARE","ALARM_RETURN_LINE_SENSOR_SL":"RETURLED.GIVARE
+    /// SLAV","ALARM_ROOM_SENSOR":"RUMSGIVARE","ALARM_SUCT_TEMP_SENSOR_MA_SA":"SUGGASGIVARE","ALARM_SUCT_TEMP_SENSOR_SL":"SUGGASGIVARE
+    /// SLAV","ALARM_SUPPLY_LINE_SENSOR_MA_SA":"FRAML.GIVARE","ALARM_SUPPLY_LINE_SENSOR_SL":"FRAML.GIVARE
+    /// SLAV","ALARM_SYS_SUPPLY_LINE_SENSOR":"SYSTEMFRAML.GIVARE","ALARM_SYSTEM_CIRC_PUMP":"SYSTEMPUMP
+    /// VÄRME","CAL_FUNCTION_EVU_MODE":"EVU-läge","CAL_FUNCTION_HOT_WATER":"Varmvatten
+    /// blockering","CAL_FUNCTION_REDUCED_HEATING_EFFECT":"Temperaturändring","CAL_FUNCTION_SILENT_MODE":"Tyst
+    /// läge","COMP_ACTIVE_COOLING":"Aktiv
+    /// kyla","COMP_COOLING":"Kyla","COMP_CURRENT_LIMITER_EXP_PORT203_1":"Ström","COMP_HAS_LINK":"Link","COMP_INDOOR_TEMPERATURE":"Inne","COMP_PASSIVE_COOLING":"Passiv
+    /// kyla","COMP_POWER_STATUS":"Eltillskott","COMP_POWER_STATUS_ATEC":"Eltillskott","COMP_SHUNT_GROUP":"Shuntgrupp","COMP_STATUS":"Status","COMP_STATUS_ATEC":"Status","COMP_STATUS_ATRIA":"Status","COMP_VALUE_BRINEPUMP":"Brinepump","COMP_VALUE_COMPR":"Kompressor","COMP_VALUE_COOLING":"Kyla","COMP_VALUE_DEFROST":"Avfrostning","COMP_VALUE_FAN":"Fläkt","COMP_VALUE_HEATING":"Värme","COMP_VALUE_HGW":"HGW","COMP_VALUE_HIGH_FAN":"Fläkt
+    /// HÖG","COMP_VALUE_HOT_WATER":"Varmvatten","COMP_VALUE_LINK_INSTALLED":"Installerad","COMP_VALUE_LINK_NOT_INSTALLED":"Inte
+    /// installerad","COMP_VALUE_POOL":"Pool","COMP_VALUE_RADIATORPUMP":"Radiatorpump","COMP_VALUE_STEP_12KW":"12kW","COMP_VALUE_STEP_15KW":"15kW","COMP_VALUE_STEP_3KW":"3kW","COMP_VALUE_STEP_6KW":"6kW","COMP_VALUE_STEP_9KW":"9kW","EQ_CURRENT_LIMITER":"Strömbegränsning","EQ_HOTWATER":"Varmvatten","EQ_INDOOR_TEMPERATURE":"Givare
+    /// inomhustemperatur","EQ_SHUNT_GROUP":"Shuntgrupp","ERROR_DEVICE_NOT_CONNECTED":"Installationen är offline (ingen
+    /// anslutning mellan server och DCM)","ERROR_INVALID_OLD_PASSWORD":"Felaktigt nuvarande
+    /// lösenord","EV_ALARM_ACTIVATED_DESCRIPTION {0} {1} {2}":"Larmsignal från värmepump ändrades till värdet:
+    /// AKTIV","EV_ALARM_ACTIVATED_TITLE {0}":"LARM AKTIVERAT: {0}","EV_ALARM_DEACTIVATED_DESCRIPTION {0} {1}
+    /// {2}":"Larmsignal från värmepump ändrades till värdet: INAKTIV","EV_ALARM_DEACTIVATED_TITLE {0}":"Larm
+    /// återställt/kvitterat: {0}","EV_CONNECTION_LOST_DETAILS {0}":"DCM kopplad till värmepump har tappat anslutning
+    /// till online-servern (DCM: {0})","EV_CONNECTION_LOST_TITLE":"Uppkoppling mot värmepump är
+    /// bruten","EV_CONNECTION_RESUMED_DETAILS {0} {1} {2} {3}":"Värmepumpen har återställt anslutning till
+    /// online-servern (DCM: {0}, mjukvaruversion: {1}, anledning: {2}
+    /// [{3}])","EV_CONNECTION_RESUMED_TITLE":"Uppkoppling mot värmepump
+    /// återställd","EV_HEAT_PUMP_SOURCE":"Värmepump","EV_ONLINE_SYSTEM_SOURCE":"Online","NOT_ACCOUNT_CREATED_BODY {0}
+    /// {1} {2}":"Välkommen Online med ditt värmesystem! Du kan nu hantera och styra din värmepump via nätet. Gå live på
+    /// {2}. Du kan också ladda ner vår gratis app på Apple App Store eller Google Play Store. Användaruppgifter:
+    /// Användarnamn: {0} Lösenord: {1}","NOT_ACCOUNT_CREATED_SUBJECT":"Nytt konto skapat på
+    /// Online","NOT_ACCOUNT_PASSWORD_RESET_BODY {0} {1}":"Användaruppgifter Användarnamn: {0} Lösenord: {1}
+    /// ","NOT_ACCOUNT_PASSWORD_RESET_SUBJECT":"Lösenord för konto på Online nollställt","NOT_MAIL_INSTALLATION_SUFFIX
+    /// {0}":" (Installation: {0})","NOT_MOBILE_INSTALLATION_SUFFIX {0}":" Installation:
+    /// {0}","REG_ACTIVATE_COOLING":"Aktivera","REG_ACTIVE_COOLING":"Aktiv kyla","REG_ALARM_BRINE":"Larm
+    /// brine","REG_AUXILIARY_HYSTERESIS":"Hysteres","REG_AUXILIARY1":"Tillsats 1","REG_AUXILIARY2":"Tillsats
+    /// 2","REG_BRINE_IN":"Brine in","REG_BRINE_OUT":"Brine ut","REG_CALIBRATION_BRINE_IN":"Brine
+    /// ut","REG_CALIBRATION_BRINE_OUT":"Brine
+    /// in","REG_CALIBRATION_HOT_WATER":"Varmvatten","REG_CALIBRATION_OUTDOOR":"Ute","REG_CALIBRATION_RETURN_LINE":"Returledning","REG_CALIBRATION_SUPPLY_LINE":"Framledning","REG_COOLING":"Kyla","REG_Current":"Ström","REG_CURRENT_LIMITER_EXP_PORT203_1":"Ström","REG_CURVE":"Kurva","REG_CURVE_MAX":"Max","REG_CURVE_MIN":"Min","REG_CURVE_MINUS_5":"Kurva
+    /// -5","REG_CURVE_PLUS_5":"Kurva +5","REG_CURVE0":"Kurva 0","REG_CURVE2":"Kurva 2 el
+    /// Pool","REG_CURVE2_MAX":"Max","REG_CURVE2_MIN":"Min","REG_DEFROST_BETWEEN_START":"E_AvfStartStart (adress:43)
+    /// Sve=? Eng=?","REG_DEFROST_BRINE_DEFROST":"E_Brine_Avfrost (adress:41) Sve=?
+    /// Eng=?","REG_DEFROST_BRINE_SHUNT":"E_Brine_Shunt (adress:40) Sve=? Eng=?","REG_DEFROST_CURVE_0":"L_kurva0
+    /// (adress:38) Sve=Avfrostningskurva 0 Eng=Defrost curve 0","REG_DEFROST_CURVE_20":"E_kurva_20 (adress:39)
+    /// Sve=Avfrostningskurva -20 Eng=Defrost curve 0","REG_DEFROST_DELAY_FAN_START":"E_DelayFanStartAvfr (index:111)
+    /// Sve=? Eng=?","REG_DEFROST_EKAL":"EkalXX (adress:48) Sve=? Eng=?","REG_DEFROST_FAN_STOP":"E_fan2_utestopp
+    /// (adress:37) Sve=? Eng=?","REG_DEFROST_SENSOR":"EkalAvfr (adress:47:115) Sve=?
+    /// Eng=?","REG_DEFROST_TIME":"clk_tidAvfrost (adress:27) Sve=Avfrostning Eng=Defrost
+    /// ","REG_DEFROST_TIME_LAST_DEFROST_MA_SA":"Tid sedan avfrostning","REG_DEFROST_TIME_LAST_DEFROST_SL":"Tid sedan
+    /// avfrostning","REG_DEFROST_TYPE":"E_TYP (adress:46) Sve=? Eng=?","REG_DEFROST_UNDER_DAYS":"E_UnderDagar
+    /// (adress:42) Sve=? Eng=?","REG_DEFROSTS_BETW2DEFR_MA_SA":"Mellan två
+    /// avfrostningar","REG_DEFROSTS_BETW2DEFR_SL":"Mellan två
+    /// avfrostningar","REG_DEFROSTS_MA_SA":"Avfrostningar","REG_DEFROSTS_SL":"Avfrostningar","REG_DESIRED_BUFFRER_TANK":"Bufferttank
+    /// bör","REG_DESIRED_DISTR_CIR1":"Shuntgrupp bör 1","REG_DESIRED_DISTR_CIR2":"Shuntgrupp bör
+    /// 2","REG_DESIRED_INDOOR_TEMPERATURE":"Önskad innetemperatur","REG_DESIRED_POOL":"Pool
+    /// bör","REG_DESIRED_SUPPLY_LINE":"Framledning bör","REG_DESIRED_SUPPLY_LINE_TEMP":"Framledning
+    /// bör","REG_DESIRED_SYS_SUPPLY_LINE_TEMP":"Systemframledning
+    /// bör","REG_EXV_DATA_SUCTION_TEMP_MA_SA":"Suggastemperatur","REG_EXV_EVAP_PRESS_MA_SA":"Förångningstryck","REG_EXV_OPEN_DEG_MA_SA":"Öppningsgrad","REG_EXV_PROG_VERSION_MA_SA":"EXV","REG_EXV_REF_SUPER_HEAT_MA_SA":"Önskad
+    /// överhettning","REG_EXV_SUPER_HEAT_MA_SA":"Överhettning","REG_GROUP_BUFFER_TANK":"Buffertank","REG_GROUP_CALIBRATION":"Kalibrering","REG_GROUP_COOLING":"Kyla","REG_GROUP_DEFROST_CURVE":"Avfrostningskurva","REG_GROUP_DEFROSTING":"Avfrostning","REG_GROUP_HEAT_PUMP":"Värmepump","REG_GROUP_HEATING_CURVE":"Värmekurva","REG_GROUP_HEATING_CURVE2":"Värmekurva
+    /// 2 eller
+    /// Pool","REG_GROUP_HOT_WATER":"Varmvatten","REG_GROUP_IMMERSION_HEATER":"Tillsats","REG_GROUP_IMMERSION_HEATER_AUX":"Extern
+    /// tillsats","REG_GROUP_LINK":"Linkstatus","REG_GROUP_OPERATIONAL_DIAGNOSTICS":"Driftdiagnostik","REG_GROUP_OPERATIONAL_OPERATION":"Driftläge","REG_GROUP_OPERATIONAL_STATUS":"Driftstatus","REG_GROUP_OPERATIONAL_TIME":"Drifttid","REG_GROUP_POOL":"Pool","REG_GROUP_SOFTWARE_VERSIONS":"Mjukvaruversioner","REG_GROUP_TEMPERATURES":"Temperaturer","REG_GROUP_TEMPERATURES_SLAVE":"Slav","REG_HEAT_PUMP":"Värmepump","REG_HEAT_PUMP_HYSTERES":"Hysteres","REG_HEATING_CURVE_0":"Kurva
+    /// 0","REG_HEATING_CURVE_MINUS5":"Kurva -5","REG_HEATING_CURVE_PLUS5":"Kurva
+    /// +5","REG_HEATING_HEAT_CURVE":"Kurva","REG_HEATING_HEAT_CURVE_MAX":"Max","REG_HEATING_HEAT_CURVE_MIN":"Min","REG_HEATING_HEAT_STOP":"Värmestopp","REG_HEATING_ROOM_FACTOR":"Rumsfaktor","REG_HEATING_SETBACK_TEMP":"Sänkning","REG_HEATING_STOP":"Värmestopp","REG_HOT_TAP_WATER":"Varmvatten","REG_HOT_WATER_STATUS":"Varmvatten","REG_HOT_WATER_TEMPERATURE":"Varmvatten","REG_HOT_WATER_TOP_HEATING_TIME":"Toppv.
+    /// tid","REG_HOTWATER_HEATING_TIME":"Värmetid","REG_HOTWATER_START":"Start","REG_HOTWATER_TIME":"Varmvattentid","REG_HOTWATER_TOP_HEATING_INTERVAL":"toppv.
+    /// Intervall","REG_HOTWATER_TOP_HEATING_STOP_TEMPERATURE":"toppv.
+    /// stopp","REG_INDOOR_TEMPERATURE":"Inne","REG_INTEGRAL_A1":"Integral A1","REG_INTEGRAL_A2":"Integral
+    /// A2","REG_INTEGRAL_LSD":"Integral","REG_LINK_INTEGRATION":"Link
+    /// Integration","REG_LINK_STATUS_LIGHT":"Light","REG_LINK_STATUS_OFF":"Av","REG_LINK_STATUS_ON":"På","REG_LINK_STATUS_SYSTEM":"System","REG_LOWEST_BOUNDARY_RED_TANK":"Bufferttank
+    /// nattsänkning min","REG_LOWEST_BOUNDARY_TANK":"Bufferttank min","REG_MAX_CURRENT":"Max
+    /// ström","REG_MAX_RETURN_TEMPERATURE":"Max retur","REG_MAX_STEP":"Max
+    /// steg","REG_OPER_DATA_ALT_OUTDOOR":"Ute","REG_OPER_DATA_BUFFER_TANK":"Buffertank","REG_OPER_DATA_DISCH_PIPE_MA_SA":"Tryckrör","REG_OPER_DATA_DISTR_CIR1":"Shuntgrupp1","REG_OPER_DATA_DISTR_CIR2":"Shuntgrupp2","REG_OPER_DATA_EVAP_TEMP_MA_SA":"Förångningstemperatur","REG_OPER_DATA_HOT_WATER":"Varmvatten
+    /// 2","REG_OPER_DATA_HOT_WATER_TOP":"Varmvatten","REG_OPER_DATA_OUTDOOR_TEMP_MA_SA":"Ute","REG_OPER_DATA_POOL":"Pool","REG_OPER_DATA_PROG_VER_DISPLAY":"DC","REG_OPER_DATA_PROG_VER_EXP_CARD":"EXP","REG_OPER_DATA_PROG_VER_HP_CARD_MA_SA":"HPC","REG_OPER_DATA_PROG_VER_HUB_CARD":"IDHC","REG_OPER_DATA_REFR_1_BRINE_IN_MA_SA":"Köldmedie
+    /// 1","REG_OPER_DATA_REFR_2_BRINE_OUT_MA_SA":"Köldmedie
+    /// 2","REG_OPER_DATA_RETURN_MA_SA":"Returledning","REG_OPER_DATA_RETURN_SL":"Returledning","REG_OPER_DATA_SUPPLY_MA_SA":"Framledning","REG_OPER_DATA_SUPPLY_SL":"Framledning","REG_OPER_DATA_SYS_SUPPLY":"Systemframledning","REG_OPER_TIME_COMPRESSOR":"Kompressor","REG_OPER_TIME_COMPRESSOR_SL":"Kompressor
+    /// Slav","REG_OPER_TIME_COOLING":"Kyla","REG_OPER_TIME_EXT_AUX_HEAT":"Extern
+    /// tillsats","REG_OPER_TIME_HEATING":"Värme","REG_OPER_TIME_HOT_WATER":"Varmvatten","REG_OPER_TIME_IMM1":"Tillsats
+    /// 1","REG_OPER_TIME_IMM2":"Tillsats 2","REG_OPER_TIME_IMM3":"Tillsats
+    /// 3","REG_OPERATIONMODE":"Driftläge","REG_OUTDOOR_TEMPERATURE":"Ute","REG_OUTPORTC":"Status","REG_PASSIVE_COOLING":"Passiv
+    /// kyla","REG_PRESSURE_PIPE":"Tryckrör*-*","REG_PROGRAM_VERSION":"Programversion","REG_REDUCED_HEATING":"Sänkning","REG_RETURN_LINE":"Returledning","REG_ROOM_FACTOR":"Rumsfaktor","REG_SENSOR_CALIB_BUFFER_TANK":"Buffertank","REG_SENSOR_CALIB_COOLING":"Kyla","REG_SENSOR_CALIB_DEFROST_SENSOR":"Avfrostningsgivare","REG_SENSOR_CALIB_DISCH_PIPE":"Tryckrör","REG_SENSOR_CALIB_HGW":"HGW","REG_SENSOR_CALIB_HOT_WATER":"Varmvatten","REG_SENSOR_CALIB_HOT_WATER_TOP":"Varmvatten
+    /// topp","REG_SENSOR_CALIB_OUTDOOR":"Ute","REG_SENSOR_CALIB_REFR_1_BRINE_IN":"Köldmedie
+    /// 1","REG_SENSOR_CALIB_REFR_2_BRINE_OUT":"Köldmedie
+    /// 2","REG_SENSOR_CALIB_RETURN_LINE":"Returledning","REG_SENSOR_CALIB_SUPPLY_LINE":"Framledning","REG_SENSOR_CALIB_SYS_SUPPLY_LINE":"Systemframledning","REG_SER_AUX_HEAT":"Aktivera","REG_SER_AUX_HEAT_EXT_HEAT":"Aktivera","REG_SER_AUX_HEAT_HOT_WATER_STOP":"Varmvatten
+    /// stopp","REG_SER_AUX_HEAT_HYST":"Hysteres","REG_SER_AUX_HEAT_INTEGRALA2":"Integral
+    /// A2","REG_SER_AUX_HEAT_INTEGRALA3":"Integral A3","REG_SER_AUX_HEAT_MAX_CURRENT":"Max
+    /// ström","REG_SER_AUX_HEAT_MAX_STEP":"Max
+    /// steg","REG_SER_AUX_HEAT_SHUNT_TIME_EXT":"Shunttid","REG_SER_AUX_HEAT_START_DELAY":"Fördröjd
+    /// start","REG_SER_HEATING_HYST":"Hysteres","REG_SER_HEATING_INTEGRALA1":"Integral
+    /// A1","REG_SER_HEATING_MAX_RETURN":"Max
+    /// retur","REG_SER_HEATING_OUTD_STOP":"Utestopp","REG_SER_HEATING_START_INTER":"Startinterval","REG_SER_HEATING_TIME":"Värmetid","REG_SER_HOT_WATER_START":"Start","REG_SER_HOT_WATER_TIME":"Varmvattentid","REG_SER_HOT_WATER_TOPH_INTER":"ToppVV
+    /// intervall","REG_SER_HOT_WATER_TOPH_STOP":"ToppVV stopp","REG_SER_HOT_WATER_TOPH_TIME":"ToppVV
+    /// tid","REG_SHUNT_COOLING":"Shunt
+    /// kyla","REG_SHUNT_GROUP":"Shuntgrupp","REG_SHUNT_TIME":"Shunttid","REG_START_INTERVAL":"Startintervall","REG_STATUS1":"Status
+    /// 2","REG_STEP":"Elpatron","REG_SUPPLY_LINE":"Framledning","REG_VALUE_OPERATION_MODE_AUTO":"Auto","REG_VALUE_OPERATION_MODE_AUXILIARY":"Tillsats","REG_VALUE_OPERATION_MODE_COMPRESSOR":"Kompressor","REG_VALUE_OPERATION_MODE_HOT_WATER":"Varmvatten","REG_VALUE_OPERATION_MODE_OFF":"Av","REG_VALUE_OUTPORTC_BRINE_PUMP":"Brinepump","REG_VALUE_OUTPORTC_COMPRESSOR":"Kompressor","REG_VALUE_OUTPORTC_HOTWATER_VALVE":"VV
+    /// Växelventil","REG_VALUE_OUTPORTC_RADIATOR_PUMP":"Radiatorpump","REG_VALUE_STATUS_OFF":"Av","REG_VALUE_STATUS_ON":"På","REG_VALUE_STATUS1_CONTROL_PRESSURE_SWITCH":"Reglerpressostat","REG_VALUE_STATUS1_HOT_WATER_OPERATION":"Varmvattendrift","REG_VALUE_STEP_3KW":"Elpatron
+    /// 3kW","REG_VALUE_STEP_6KW":"Elpatron 6kW","REG_WEIGHTED_HOT_WATER_TEMP":"Viktad
+    /// varmvattentemperatur","UI_CAL_FUNCTION_SLOT_ACTIVATE_BUTTON":"Verkställ","UI_CAL_FUNCTION_SLOT_ACTIVATE_FAILED":"Schemaläggning
+    /// misslyckades","UI_CAL_FUNCTION_SLOT_ACTIVATED":"Schemaläggning tillagd","UI_CAL_FUNCTION_SLOT_ADD_BUTTON":"lägg
+    /// till","UI_CAL_FUNCTION_SLOT_DEACTIVATE_BUTTON":"Ta bort","UI_CAL_FUNCTION_SLOT_DEACTIVATE_FAILED":"Borttagning
+    /// av schemaläggning misslyckades","UI_CAL_FUNCTION_SLOT_DEACTIVATED":"Schemaläggning
+    /// borttagen","UI_CAL_FUNCTION_SLOT_ENDDATE_REQUIRED":"Du måste ange
+    /// slutdatum!","UI_CAL_FUNCTION_SLOT_FROM_LABEL":"Från","UI_CAL_FUNCTION_SLOT_STARTDATE_REQUIRED":"Du måste ange
+    /// startdatum!","UI_CAL_FUNCTION_SLOT_TO_LABEL":"Till","UI_CAL_HP_LOCALTIME_FETCH":"Hämta","UI_CAL_HP_LOCALTIME_LABEL":"Värmepumpens
+    /// lokala tid","UI_CAL_NO_ACTIVE_FUNC":"Inga kalenderfunktioner
+    /// aktiva","UI_CAL_PICKER_FROM":"Från","UI_CAL_PICKER_TO":"Till","UI_CALENDAR_DAY_NAMES":"Måndag Tisdag Onsdag
+    /// Torsdag Fredag Lördag Söndag","UI_CALENDAR_DAY_NAMES_SHORT":"Mån Tis Ons Tor Fre Lör
+    /// Sön","UI_CALENDAR_HEATING_TEMPERATURE_REDUCED_HEATINGEFFECT":"Värde vid
+    /// ändring","UI_CALENDAR_MONTH_NAMES":"Januari Februari Mars April Maj Juni Juli Augusti September Oktober November
+    /// December","UI_CALENDAR_MONTH_NAMES_SHORT":"Jan Feb Mar Apr Maj Jun Jul Aug Sep Okt Nov
+    /// Dec","UI_CALENDAR_TITLE_LABEL":"Kalender","UI_DETAILS_IDLE":"Inaktiv","UI_DETAILS_REGISTER_ISREADONLY":"Registret
+    /// kan inte
+    /// ändras","UI_DETAILS_REGISTER_RESET":"Återställ","UI_DETAILS_REGISTER_SAVE":"Verkställ","UI_DETAILS_REGISTER_UPDATED_SUCCESS":"Register
+    /// uppdaterat","UI_DETAILS_RUNNING":"Drift","UI_EVENTS_FILTER_COMMUNICATION_LABEL":"Kommunikation","UI_EVENTS_FILTER_HEATPUMP_LABEL":"Värmepump","UI_EVENTS_FILTER_SELECTION_LABEL":"Visa
+    /// evenemang","UI_EVENTS_LIST_ID_LABEL":"ID","UI_EVENTS_LIST_SOURCE_LABEL":"Källa","UI_EVENTS_LIST_TIME_LABEL":"Tidpunkt","UI_EVENTS_LIST_TITLE_LABEL":"Rubrik","UI_EVENTS_LIST_TYPE_LABEL":"Typ","UI_EVENTS_NO_EVENTS_TEXT":"Inga
+    /// nya händelser","UI_EVENTS_SUBSCRIBER_ADDBUTTON_LABEL":"Lägg
+    /// till","UI_EVENTS_SUBSCRIBER_EMAIL_PLACEHOLDER":"skriv epost","UI_EVENTS_SUBSCRIBER_FORM_LABEL":"Larmnotifiering
+    /// via e-post","UI_EVENTS_SUBSCRIBER_NAME_PLACEHOLDER":"för- och
+    /// efternamn","UI_EVENTS_SUBSCRIBERS_LIST_LABEL":"Följande personer får notifiering via
+    /// e-post","UI_EVENTS_TITLE_LABEL":"Händelser","UI_GENERIC_CANCEL_BUTTON":"Avbryt","UI_GENERIC_CLOSE_BUTTON":"Stäng","UI_GENERIC_ENTER_EMAIL":"Du
+    /// måste ange en e-post","UI_GENERIC_ENTER_NAME":"Du måste ange ett namn","UI_GENERIC_LOGOUT_LABEL":"Logga
+    /// ut","UI_GENERIC_NOT_YET_SUPPORTED":"Stöds inte i denna version.","UI_GENERIC_OVERRIDDEN_BY_LINK":"Styrd av
+    /// Link","UI_GENERIC_REQUIRED_FIELD":"Obligatoriskt fält","UI_GENERIC_REQUIRED_FIELD_EQUAL":"Fält matchar
+    /// ej","UI_GENERIC_REQUIRED_FIELD_LENGTH":"Ange fler
+    /// tecken","UI_GENERIC_SAVE_BUTTON":"Spara","UI_GENERIC_UNIT_HOUR":"tim","UI_GENERIC_UNKNOWN":"Okänd","UI_GENERIC_USER_FIRSTNAME_LABEL":"Förnamn","UI_GENERIC_USER_LANGUAGE_LABEL":"Språk","UI_GENERIC_USER_LASTNAME_LABEL":"Efternamn","UI_GENERIC_USER_TIMEZONE_LABEL":"Tidszon","UI_GENERIC_WELCOME_HEADER":"Välkommen","UI_GRAPH_COMPARISON_SELECTION_LABEL":"Visa
+    /// jämföresle","UI_GRAPH_LABEL_BAR1":"Stapel 1","UI_GRAPH_LABEL_BAR2":"Stapel
+    /// 2","UI_GRAPH_LABEL_GRAPH_TYPE_SELECTION":"Graftyp","UI_GRAPH_LABEL_GRAPH1_PERIOD_SELECTION":"Period för graf 1
+    /// (heldragen)","UI_GRAPH_LABEL_GRAPH2_PERIOD_SELECTION":"Period för graf 2
+    /// (streckad)","UI_GRAPH_LABEL_PERIOD":"Period","UI_GRAPH_LABEL_PERIOD_TYPE_SELECTION":"Periodtyp","UI_GRAPH_MESSAGE_NO_DATA_TO_PLOT":"Ingen
+    /// graf vald eller inget data att visa","UI_GRAPH_MESSAGE_NO_REGISTERS":"Inga register
+    /// tillgängliga","UI_GRAPH_TITLE_LABEL":"Grafer","UI_GRAPH_TYPE_SELECTION_DAY":"Dag","UI_GRAPH_TYPE_SELECTION_MONTH":"Månad","UI_GRAPH_TYPE_SELECTION_WEEK":"Vecka","UI_GRAPH_TYPE_SELECTION_YEAR":"År","UI_INSTALLATION_FILTER_HASALARMS_LABEL":"har
+    /// larm","UI_INSTALLATION_FILTER_HASEVENTS_LABEL":"har
+    /// händelser","UI_INSTALLATION_FILTER_IS_OFFLINE_LABEL":"offline","UI_INSTALLATION_FILTER_SEARCH_LABEL":"sök","UI_INSTALLATION_FILTER_SEARCH_MAX_MESSAGE":"Det
+    /// finns fler än [0] installationer, ange söksträng och tryck enter för att förfina
+    /// sökresultatet.","UI_MOBILE_AWAYMODE_REMOVE_LABEL":"Ta bort","UI_MOBILE_DETAILS_EMPTY_TEXT":"Inga specifierade
+    /// register hittade","UI_MOBILE_INSTALLATION_SELECT_BUTTON":"Välj","UI_MOBILE_INSTALLATION_SELECT_LABEL":"Välj
+    /// installation","UI_MODEL_MANUAL_LABEL":"Manual","UI_MODEL_PROFILE_LABEL":"Profil","UI_MODEL_PROGRAMVERSION_LABEL":"Programversion","UI_NO_INSTALLATION_CONTACT_YOUR_RETAILER_TEXT":"kontakta
+    /// din återförsäljare","UI_NO_INSTALLATION_HEADER_TEXT":"Inga
+    /// installationer","UI_NO_INSTALLATION_OPEN_ADMIN_BUTTON":"öppna
+    /// adminverktyget","UI_NO_INSTALLATION_PREAMBLE_TEXT":"Till det här kontot finns det inga installationer
+    /// kopplade","UI_RETAILER_ADDRESSLINE1_LABEL":"Adress","UI_RETAILER_ADDRESSLINE2_LABEL":"Adress","UI_RETAILER_CITY_LABEL":"Stad","UI_RETAILER_CONTACTNAME_LABEL":"Kontaktperson","UI_RETAILER_EMAIL_LABEL":"E-post","UI_RETAILER_PHONENUMBER_LABEL":"Telefon","UI_RETAILER_ZIPCODE_LABEL":"Postnummer","UI_STATUS_CALENDARFUNCTIONS_TITLE":"Aktiva
+    /// kalenderfunktioner","UI_STATUS_EVENTS_ACTIVE_ALARM_LABEL":"nytt
+    /// larm","UI_STATUS_EVENTS_ACTIVE_ALARMS_LABEL":"nya larm","UI_STATUS_EVENTS_ALLOK_LABEL":"Allt
+    /// OK","UI_STATUS_EVENTS_NEWEVENT_LABEL":"ny händelse","UI_STATUS_EVENTS_NEWEVENTS_LABEL":"nya
+    /// händelser","UI_STATUS_EVENTS_NOACTIVEFUNC_LABEL":"Den här installationen har inga rapporterade
+    /// händelser","UI_STATUS_EVENTS_TITLE":"Senaste 5 händelserna","UI_STATUS_EVENTS_UNREAD_ALARM_LABEL":"oläst
+    /// larm","UI_STATUS_EVENTS_UNREAD_ALARMS_LABEL":"olästa larm","UI_STATUS_INSTALLATION_OFFLINE":"Installationen är
+    /// offline","UI_STATUS_LATEST_UPDATE_TIME_LABEL":"Senaste uppdatering","UI_STATUS_SENSOR_NOT_ACTIVATED":"Ej
+    /// aktiverad","UI_STATUS_SENSOR_NOT_FUNCTIONING":"Ej fungerande","UI_STATUS_SENSOR_NOT_INSTALLED":"Ej
+    /// installerad","UI_STATUS_UNREADEVENTS_LABEL":"Du
+    /// har","UI_TAB_CALENDAR_LABEL":"Kalender","UI_TAB_DETAILS_LABEL":"Detaljer","UI_TAB_EVENTS_LABEL":"Händelser","UI_TAB_GRAPH_LABEL":"Grafer","UI_TAB_STATUS_LABEL":"Status","UI_USER_SETTINGS_FIRSTNAME_REQUIRED":"Måste
+    /// anges","UI_USER_SETTINGS_LABEL":"Inställningar","UI_USER_SETTINGS_LASTNAME_REQUIRED":"Måste
+    /// anges","UI_USER_SETTINGS_NAME_LABEL":"Personliga
+    /// inställningar","UI_USER_SETTINGS_NEWPASSWORD_CONFIRM_LABEL":"Bekräfta nytt
+    /// lösenord","UI_USER_SETTINGS_NEWPASSWORD_LABEL":"Nytt lösenord","UI_USER_SETTINGS_NEWPASSWORD_MATCH":"Lösenord
+    /// matchar ej","UI_USER_SETTINGS_NEWPASSWORD_REQUIRED":"Måste
+    /// anges","UI_USER_SETTINGS_OLDPASSWORD_LABEL":"Nuvarande lösenord","UI_USER_SETTINGS_OLDPASSWORD_REQUIRED":"Måste
+    /// anges","UI_USER_SETTINGS_PASSWORD_LABEL":"Lösenord","UI_USER_SETTINGS_PASSWORD_UPDATE_SUCCESS":"Lösenord
+    /// ändrat","UI_USER_SETTINGS_UPDATE_FAILED":"Uppdatering
+    /// misslyckades","UI_USER_SETTINGS_UPDATE_SUCCESS":"Användarinställningar ändrade","UI_USER_SHOW_ADMIN_LABEL":"Visa
+    /// adminverktyget","UI_YOUR_MODEL_LABEL":"Din modell","UI_YOUR_RETAILER_LABEL":"Din återförsäljare"}}
+
+}
